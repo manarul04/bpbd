@@ -1,0 +1,29 @@
+CRITICAL - 2023-01-05 20:22:29 --> Undefined array key "jenis_bantuan"
+in APPPATH\Controllers\Bantuan.php on line 26.
+ 1 APPPATH\Controllers\Bantuan.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jenis_bantuan"', 'APPPATH\\Controllers\\Bantuan.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Bantuan->tambah_bantuan()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bantuan))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 20:52:52 --> Undefined array key "jenisbantuan"
+in APPPATH\Views\admin\bantuan.php on line 92.
+ 1 APPPATH\Views\admin\bantuan.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jenisbantuan"', 'APPPATH\\Views\\admin\\bantuan.php', 92)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\bantuan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/bantuan', [], true)
+ 5 APPPATH\Controllers\Bantuan.php(17): view('admin/bantuan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Bantuan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bantuan))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 21:01:48 --> Undefined array key "user"
+in APPPATH\Views\admin\user.php on line 97.
+ 1 APPPATH\Views\admin\user.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user"', 'APPPATH\\Views\\admin\\user.php', 97)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/user', [], true)
+ 5 APPPATH\Controllers\User.php(13): view('admin/user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\User->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

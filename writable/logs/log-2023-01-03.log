@@ -1,0 +1,160 @@
+CRITICAL - 2023-01-03 17:59:16 --> Class "App\Models\UserModel" not found
+in APPPATH\Controllers\Auth.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Auth->saveLogin()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 18:00:36 --> Class "App\Models\UserModel" not found
+in APPPATH\Controllers\Auth.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Auth->saveLogin()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 18:00:57 --> Undefined array key "id"
+in APPPATH\Controllers\Auth.php on line 29.
+ 1 APPPATH\Controllers\Auth.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Auth.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Auth->saveLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 18:34:31 --> Invalid file: footer.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('footer.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('footer', [], true)
+ 3 APPPATH\Views\admin\kategori.php(2100): view('footer')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\kategori.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/kategori', [], true)
+ 7 APPPATH\Controllers\Kategori.php(9): view('admin/kategori')
+ 8 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Kategori->index()
+ 9 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 18:42:09 --> Undefined variable $kategori
+in APPPATH\Views\admin\kategori.php on line 25.
+ 1 APPPATH\Views\admin\kategori.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'APPPATH\\Views\\admin\\kategori.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/kategori', [], true)
+ 5 APPPATH\Controllers\Kategori.php(13): view('admin/kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Kategori->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 19:14:44 --> Undefined array key "id_kategori"
+in APPPATH\Controllers\Kategori.php on line 27.
+ 1 APPPATH\Controllers\Kategori.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kategori"', 'APPPATH\\Controllers\\Kategori.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Kategori->edit_kategori()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 19:15:18 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+in SYSTEMPATH\BaseModel.php on line 1626.
+ 1 SYSTEMPATH\BaseModel.php(854): CodeIgniter\BaseModel->transformDataToArray('1', 'update')
+ 2 SYSTEMPATH\Model.php(721): CodeIgniter\BaseModel->update([...], '1')
+ 3 APPPATH\Controllers\Kategori.php(27): CodeIgniter\Model->update([...], '1')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Kategori->edit_kategori()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 19:41:07 --> Undefined array key "kategori"
+in APPPATH\Controllers\Kategori.php on line 29.
+ 1 APPPATH\Controllers\Kategori.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kategori"', 'APPPATH\\Controllers\\Kategori.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Kategori->edit_kategori()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 20:14:08 --> Undefined variable $lokasi
+in APPPATH\Views\admin\kejadian.php on line 69.
+ 1 APPPATH\Views\admin\kejadian.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lokasi', 'APPPATH\\Views\\admin\\kejadian.php', 69)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\kejadian.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/kejadian', [], true)
+ 5 APPPATH\Controllers\Kejadian.php(16): view('admin/kejadian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Kejadian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kejadian))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 20:14:43 --> Undefined array key "id_kategori"
+in APPPATH\Views\admin\kejadian.php on line 38.
+ 1 APPPATH\Views\admin\kejadian.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kategori"', 'APPPATH\\Views\\admin\\kejadian.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\kejadian.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/kejadian', [], true)
+ 5 APPPATH\Controllers\Kejadian.php(19): view('admin/kejadian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Kejadian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kejadian))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 20:14:56 --> Undefined array key "lokasi"
+in APPPATH\Views\admin\kejadian.php on line 71.
+ 1 APPPATH\Views\admin\kejadian.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "lokasi"', 'APPPATH\\Views\\admin\\kejadian.php', 71)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\kejadian.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/kejadian', [], true)
+ 5 APPPATH\Controllers\Kejadian.php(19): view('admin/kejadian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Kejadian->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kejadian))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 20:17:38 --> Call to a member function getName() on null
+in APPPATH\Controllers\Kejadian.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Kejadian->tambah_kejadian()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kejadian))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 20:31:32 --> Undefined array key "rw"
+in APPPATH\Views\admin\bantuan.php on line 48.
+ 1 APPPATH\Views\admin\bantuan.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rw"', 'APPPATH\\Views\\admin\\bantuan.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\bantuan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/bantuan', [], true)
+ 5 APPPATH\Controllers\Bantuan.php(15): view('admin/bantuan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Bantuan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bantuan))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 20:32:18 --> Undefined array key "rw"
+in APPPATH\Views\admin\bantuan.php on line 48.
+ 1 APPPATH\Views\admin\bantuan.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rw"', 'APPPATH\\Views\\admin\\bantuan.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\bantuan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/bantuan', [], true)
+ 5 APPPATH\Controllers\Bantuan.php(15): view('admin/bantuan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Bantuan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bantuan))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 20:32:20 --> Undefined array key "rw"
+in APPPATH\Views\admin\bantuan.php on line 48.
+ 1 APPPATH\Views\admin\bantuan.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rw"', 'APPPATH\\Views\\admin\\bantuan.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\bantuan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/bantuan', [], true)
+ 5 APPPATH\Controllers\Bantuan.php(15): view('admin/bantuan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Bantuan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bantuan))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 20:33:48 --> Undefined array key "rt"
+in APPPATH\Views\admin\bantuan.php on line 89.
+ 1 APPPATH\Views\admin\bantuan.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rt"', 'APPPATH\\Views\\admin\\bantuan.php', 89)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\bantuan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/bantuan', [], true)
+ 5 APPPATH\Controllers\Bantuan.php(15): view('admin/bantuan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Bantuan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bantuan))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-03 20:35:59 --> Undefined array key "rt"
+in APPPATH\Views\admin\bantuan.php on line 117.
+ 1 APPPATH\Views\admin\bantuan.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rt"', 'APPPATH\\Views\\admin\\bantuan.php', 117)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\bantuan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/bantuan', [], true)
+ 5 APPPATH\Controllers\Bantuan.php(15): view('admin/bantuan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Bantuan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bantuan))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
